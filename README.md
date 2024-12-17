@@ -6,17 +6,17 @@ This repository contains Python scripts for processing Whole Slide Images (WSIs)
 
 ## **Scripts Overview**
 
-1. **`complete_tissue_mask.py`**  
+1. **`complete-tissue-mask.py`**  
    - Generates binary tissue masks from Whole Slide Images (WSIs).
 
-2. **`necrotic_mask.py`**  
+2. **`necrotic-mask.py`**  
    - Segments necrotic regions from the tissue masks.
 
-3. **`wsi_tiling.py`**  
+3. **`wsi-tiling.py`**  
    - Extracts 256x256 patches from the necrotic tissue regions.
 
-4. **`cnn_training.py`**  
-   - Trains a convolutional neural network (CNN) to classify patches as necrotic or non-necrotic.
+4. **`model-training.py`**  
+   - Trains a convolutional neural network (DenseNet161) to classify patches as necrotic or non-necrotic.
 
 ---
 
