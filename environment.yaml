@@ -1,0 +1,17 @@
+name: necrotic-detection-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.0.1
+  - torch=2.4.0
+  - torchvision=0.19.0
+  - opencv-python=4.10.0.84
+  - pillow=10.4.0
+  - matplotlib=3.8.2
+  - openslide-python
+  - scikit-image=0.22.0
+  - pip
+  - pip:
+      - openslide-python
